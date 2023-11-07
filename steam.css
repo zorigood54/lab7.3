@@ -1,0 +1,712 @@
+header{
+  background-color: #181818;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+.first{
+  display: flex;
+  padding-top: 10px;
+  word-spacing: 5px;
+  padding-left: 62%;
+  font-size: 75%;
+}
+.second{
+  display: flex;
+  padding-top: 25px;
+  height: 60px;
+  padding-left: 24%;
+}
+.install{
+  background-color: green;
+  display: block;
+width: 125px;
+height: 25px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 0px;
+box-sizing: border-box;
+cursor: pointer;
+
+}
+.install a:visited{
+  color: white;
+}
+.install :link{
+  text-decoration-line: none;
+}
+.installi{
+  width: 20px;
+  height: 20px;
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+#install{
+  position: relative;
+  left: 25px;
+  top: -18px;
+}
+.login{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.login a:visited{
+  color: white
+}
+.login a:link{
+  text-decoration-line:none;
+}
+.language{
+  padding-top: 5px;
+}
+select{
+  background-color: #181818;
+  color: white;
+  border: none;
+  font-size: 90%;
+  cursor: pointer;
+}
+option{
+  cursor: pointer;
+}
+.steami{
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  position: relative;
+  top: -25px;
+}
+.steam{
+  position: relative;
+  font-size: 150%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  top: -15px;
+}
+.steam a:visited{
+  color: white
+}
+.steam a:link{
+  text-decoration-line:none;
+}
+.store{
+  position:relative;
+  top: -15px;
+padding-left: 80px;
+font-size: 125%;
+}
+.store a:visited{
+  color: white
+}
+.store a:link{
+  text-decoration-line:none;
+}
+.community{
+  position:relative;
+  top: -15px;
+padding-left: 15px;
+font-size: 125%;
+}
+.community a:visited{
+  color: white
+}
+.community a:link{
+  text-decoration-line:none;
+}
+.about{
+  position:relative;
+  top: -15px;
+padding-left: 15px;
+font-size: 125%;
+}
+.about a:visited{
+  color: white
+}
+.about a:link{
+  text-decoration-line:none;
+}
+.support{
+  position:relative;
+  top: -15px;
+  font-size: 125%;
+padding-left: 15px;
+}
+.support a:visited{
+  color: white
+}
+.support a:link{
+  text-decoration-line:none;
+}
+
+body{
+  background-color: #00308F;
+}
+
+menu{
+position: absolute;
+top: 150px;
+left: 450px;
+display: flex;
+color: white;
+background-color:#007FFF;
+width: 920px;
+height: 30px;
+padding-top: 10px;
+}
+.your{
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.your a:visited{
+  color: white
+}
+.your a:link{
+  text-decoration-line:none;
+}
+.your:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+.new{
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.new a:visited{
+  color: white
+}
+.new a:link{
+  text-decoration-line:none;
+}
+.new:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+.categories{
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.categories a:visited{
+  color: white
+}
+.categories a:link{
+  text-decoration-line:none;
+}
+.categories:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+.points{
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.points a:visited{
+  color: white
+}
+.points a:link{
+  text-decoration-line:none;
+}
+.points:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+.news{
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.news a:visited{
+  color: white
+}
+.news a:link{
+  text-decoration-line:none;
+}
+.news:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+.labs{
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+.labs a:visited{
+  color: white
+}
+.labs a:link{
+  text-decoration-line:none;
+}
+.labs:hover{
+  background-color: cyan;
+  box-sizing: border-box;
+}
+
+nav{
+  position:absolute;
+  top: 170px;
+  left: 180px;
+}
+nav a:visited{
+  color: white;
+}
+nav a:link{
+  text-decoration-line: none;
+}
+nav a:hover{
+  color:cyan;
+}
+content{
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+footer{
+position: absolute;
+top: 700px;
+left: 450px;
+}
+.cardi{
+  width: 150px;
+  height: 50px;
+}
+.gift{
+  color: cyan;
+}
+.gift a:visited{
+color: cyan;
+}
+.gift a:hover{
+  color: white;
+}
+.ofgame{
+  color:white;
+  margin-top: -20px;
+}
+.recom{
+  color: grey;
+  font-size: 150%;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.friends{
+  color: white;
+}
+.curators{
+  color: white;
+}
+.tags{
+  color: white;
+  padding-bottom: 20px;
+}
+.browse{
+  color: grey;
+  font-size: 150%;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.top{
+  color: white;
+}
+.newre{
+  color: white;
+}
+.upcomin{
+  color: white;
+}
+.specials{
+  color: white;
+}
+.vr{
+  color: white;
+}
+.friendly{
+  color: white;
+}
+.great{
+  color: white;
+  padding-bottom: 20px;
+}
+.genre{
+  color:grey;
+  font-size: 150%;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.free{
+  color: white;
+}
+.early{
+  color: white;
+}
+.action{
+  color: white;
+}
+.adventure{
+  color: white;
+}
+.casual{
+  color: white;
+}
+.indie{
+  color: white;
+}
+.multi{
+  color: white;
+}
+.racin{
+  color: white;
+}
+.rpg{
+  color: white;
+}
+.simu{
+  color: white;
+}
+.sport{
+  color: white;
+}
+.stra{
+  color: white;
+}
+.featured{
+  font-size: 150%;
+  color: white;
+}
+.offer{
+  font-size: 150%;
+  color: white;
+}
+.other{
+  position: relative;
+  left: 850px;
+  bottom: 25px;
+  font-size: 75%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  width: 100px;
+  padding-left: 10px;
+}
+.other a:link{
+  text-decoration-line: none;
+}
+.other a:visited{
+  color: white;
+}
+.other:hover{
+  border-color: white;
+}
+.featured{
+  padding-bottom: 10px;
+}
+#center{
+  height: 400px;
+  width: 600px;
+  cursor:pointer;
+}
+.left{
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: -40px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: black;
+  height: 80px;
+  width: 40px;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 20px;
+  cursor:pointer;
+}
+.left:hover{
+  background-color:grey ;
+}
+#side{
+  position: absolute;
+  left: 600px;
+  bottom: 5px;
+  background-color: #181818;
+  height: 400px;
+  width: 360px;
+  color: white;
+  cursor: pointer;
+}
+#two{
+  width: 150px;
+  height: 75px;
+}
+#three{
+  width: 175px;
+  height: 75px;
+}
+#four{
+  width: 150px;
+  height: 75px;
+}
+.right{
+  color: white;
+  position:absolute;
+  left: 960px;
+  bottom: 170px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: black;
+  height: 80px;
+  width: 40px;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 20px;
+  cursor:pointer;
+}
+.right:hover{
+  background-color: grey;
+}
+.one{
+  font-size: 200%;
+  padding-left: 10px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.two{
+  font-size: 150%;
+  margin-top: 10px;
+padding-left: 10px;
+margin-bottom: 5px;
+}
+.three{
+  background-color: grey;
+  width: 75px;
+  margin-left: 10px;
+  font-size: 80%;
+  margin-bottom: 60px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.four{
+  padding-left: 10px;
+}
+.more{
+cursor:pointer;
+}
+#ono{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+#tnt{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 310px;
+  top: 50px;
+}
+#thnt{
+  position:absolute;
+  width: 340px;
+  height: 150px;
+  left: 620px;
+  top: 50px;
+}
+#fnf{
+  position: absolute;
+  width: 340px;
+  height: 150px;
+  left: 620px;
+  top: 270px;
+}
+#infoo{
+  position: absolute;
+  top: 350px;
+}
+#infot{
+position: absolute;
+top: 350px;
+left: 320px;
+}
+#infoth{
+position: absolute;
+left: 620px;
+top: 210px;
+}
+#infof{
+position: absolute;
+top: 420px;
+left: 620px;
+}
+.more p{
+  color:white
+}
+
+#infoo{
+  background-color: blue;
+  width: 290px;
+  color: white;
+  height: 120px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#saleo{
+  font-size: 200%;
+  background-color: green;
+  color: lime;
+  width: 80px;
+  margin: 20px;
+  padding-left: 5px;
+
+}
+#priceo{
+  position: relative;
+  left: 105px;
+  bottom: 57px;
+  line-height: 2px;
+  background-color: gray;
+  color: green;
+  width: 80px;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 80%;
+  text-align: right;padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#infot{
+  background-color: blue;
+  width: 290px;
+  color: white;
+  height: 120px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+#salet{
+  font-size: 200%;
+  background-color: green;
+  color: lime;
+  width: 80px;
+  margin: 20px;
+  padding-left: 5px;
+
+}
+#pricet{
+  position: relative;
+  left: 105px;
+  bottom: 57px;
+  line-height: 2px;
+  background-color: gray;
+  color: green;
+  width: 80px;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 80%;
+  text-align: right;padding-right: 10px;
+  padding-bottom: 5px;
+}
+#infoth{
+  background-color: blue;
+  width:330px;
+  padding-left: 10px;
+  padding-top: 10px;
+height: 40px;
+}
+#saleth{
+  position: relative;
+  left: 170px;
+  bottom: 20px;
+  font-size: 200%;
+  background-color: green;
+  width: 75px;
+  padding-left: 5px;
+  color: lime;
+}
+#priceth{
+  position: relative;
+  left: 250px;
+  bottom: 60px;
+  line-height: 2px;
+  font-size: 80%;
+  background-color: grey;
+  height: 35px;
+  width: 70px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: right;
+  color: green;
+}
+#priceth p{color:white}
+
+#infof{
+  background-color: blue;
+  width:330px;
+  padding-left:10px;
+  padding-top: 10px;
+  height: 50px;
+}
+#salef{
+  position: relative;
+  left: 170px;
+  bottom: 20px;
+  font-size: 200%;
+  background-color: green;
+  width: 75px;
+  padding-left: 5px;
+  color: lime;
+}
+#pricef{
+  position: relative;
+  left: 250px;
+  bottom: 60px;
+  line-height: 2px;
+  font-size: 80%;
+  background-color: grey;
+  height: 35px;
+  width: 70px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: right;
+  color: green;
+}
+#pricef p{color:white}
+#left{
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: -40px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: black;
+  height: 80px;
+  width: 40px;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 20px;
+  cursor:pointer;
+}
+#left:hover{
+  background-color: grey;
+}
+#right{
+  color: white;
+  position:absolute;
+  left: 960px;
+  bottom: -220px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: black;
+  height: 80px;
+  width: 40px;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 20px;
+  cursor:pointer;
+}
+#right:hover{
+  background-color: grey;
+}
+h2{
+  position: relative;
+  margin-top: -10px;
+  cursor:pointer
+}
